@@ -1,0 +1,9 @@
+{
+    "raw_data_path" : "path_to/airflow/data",
+    "USERNAME" : "Chess.com username",
+    "MAIL" : "Chess.com email adress",
+    "neon_host" : "neon host",
+    "neon_password" : "neon_password",
+    "checkpoint_path" : "path_to/checkpoint.json"
+}
+
