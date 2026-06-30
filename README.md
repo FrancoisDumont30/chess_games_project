@@ -10,7 +10,6 @@ I’ll also replicate the same transformations in both Databricks and dbt to hig
 2. Save the extracted games to a local folder for manual import into Databricks Community Edition.  
 3. Load the games from the local folder into a Neon database using the to_neon Airflow DAG.
 
-
 ![](./diagram/Diag.jpg)
 
 # Next Steps
@@ -18,16 +17,10 @@ databrick architecture and transformation
 dbt transformation  
 BI  
 
-# Airflow
-Note: The variables.json file should be used to import variables into the Airflow UI.      
-Avoid hardcoding them.    
+# README.md file
 
-# chess.com API routes
-## player stats
-https://api.chess.com/pub/player/{username}
+For every technology in the stack, a dedicated README.md file will be provided.
 
-## games archives list
-https://api.chess.com/pub/player/{username}/games/archives'
-
-## Month archive
-"https://api.chess.com/pub/player/{username}/games/yyyy/mm"
+[Airflow README](./airflow/Airflow_README.md)  
+[Chess.com API README](./chess.com_API/chess.com_API_README.md)  
+[neon databse README](./neon_db/neon_db_REAMDE.md)
