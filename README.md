@@ -23,4 +23,5 @@ For every technology in the stack, a dedicated README.md file will be provided.
 
 [Airflow README](./airflow/Airflow_README.md)  
 [Chess.com API README](./chess.com_API/chess.com_API_README.md)  
-[neon databse README](./neon_db/neon_db_REAMDE.md)
+[Neon databse README](./neon_db/neon_db_REAMDE.md)  
+[Databricks README](./databricks/databricks_README.md)
