@@ -8,13 +8,13 @@ I’ll also replicate the same transformations in both Databricks and dbt to hig
 # Current State
 1. Extract games data from chess.com API  
 2. Save the extracted games to a local folder for manual import into Databricks Community Edition.  
-3. Load the games from the local folder into a Neon database using the to_neon Airflow DAG.
+3. Load the games from the local folder into a Neon database using the to_neon Airflow DAG.  
+4. Databricks Transformation (using Spark)  
+4b. Dbt Transformation (Postgresql)  
 
 ![](./diagram/Diag.jpg)
 
 # Next Steps
-databrick architecture and transformation   
-dbt transformation  
 BI  
 
 # README.md file
