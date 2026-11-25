@@ -7,7 +7,7 @@ The same transformations are implemented twice, in Databricks (Spark) and in dbt
 
 # How it works
 1. Games are extracted from the Chess.com API.
-2. The extracted games are saved to a local folder, imported manually into Databricks Community Edition (no API access on the free tier).
+2. The extracted games are saved to a local folder for manual import into Databricks Community Edition.
 3. The `to_neon` Airflow DAG loads the games from the local folder into a Neon (PostgreSQL) database.
 4. Databricks transformation (Spark): bronze -> silver -> gold.
 4b. dbt transformation (PostgreSQL): the same bronze -> silver -> gold models.
